@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+
+   <EditText
+       android:id="@+id/editText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="20sp"
+       android:hint="ENTER YOUR MESSAGE" />
+
+   <Button
+       android:id="@+id/btnSendData"
+       android:layout_width="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_height="wrap_content"
+       android:text="Send data" />
+
+   <FrameLayout
+       android:id="@+id/frameLayout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_below="@id/button_date_1"
+       android:layout_marginTop="50dp"></FrameLayout>
+
+   <Button
+       android:id="@+id/idBtnShowBottomSheet"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="50sp"
+       android:text="Show Bottom Sheet"
+       android:textAllCaps="false" />
+
+   <Button
+       android:id="@+id/button_date_1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/idBtnShowBottomSheet"
+       android:layout_centerHorizontal="true"
+       android:text="calender" />
+
+   <TextView
+       android:id="@+id/text_view_date_1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/button_date_1"
+       android:padding="20dp"
+       android:gravity="center"
+       android:textSize="35dp" />
+
+   <Button
+       android:id="@+id/next"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:text="@string/NEXT">
+
+   </Button>
+
+   <Button
+       android:id="@+id/googleBtn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/next"
+       android:layout_centerHorizontal="true"
+       android:text="Google" />
+
+   <Button
+       android:id="@+id/btnShowAlert"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/googleBtn"
+       android:layout_centerHorizontal="true"
+       android:text="Show Alert" />
+
+   <ImageView
+       android:id="@+id/iv_click_me"
+       android:layout_width="50dp"
+       android:layout_height="50dp"
+       android:layout_above="@id/next"
+       android:layout_centerHorizontal="true"
+       android:layout_gravity="center"
+       android:src="@drawable/img" />
+
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+
+       android:layout_height="wrap_content"
+       android:layout_below="@id/btnShowAlert"
+       android:layout_centerHorizontal="true"
+       android:text="Bottom Navigation" />
+
+   <ProgressBar
+       android:id="@+id/progressBar1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:padding="10dp"
+       android:layout_below="@id/button1"
+       android:visibility="gone"/>
+
+
+
+
+</RelativeLayout>

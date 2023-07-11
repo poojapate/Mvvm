@@ -1,0 +1,30 @@
+package com.example.kotlinproject.Model
+
+data class DataXX(
+    val categoryId: Int,
+    val categoryName: String,
+    val channelId: Int,
+    val channelName: String,
+    val channelProfileImgUrl: String,
+    val description: String,
+    val downloadStatus: Boolean,
+    val isVerified: Boolean,
+    val likeStatus: Boolean,
+    val subCategoryId: Int,
+    val subCategoryName: String,
+    val subscribeStatus: Boolean,
+    val tag: String,
+    val thumbNailUrl: String,
+    val totalLikes: Int,
+    val totalSubscriber: Int,
+    val totalViews: Int,
+    val uploadDate: String,
+    val userId: Int,
+    val userName: String,
+    val userProfileUrl: String,
+    val verified: Boolean,
+    val videoId: Int,
+    val videoTitle: String,
+    val videoType: String,
+    val videoUrl: String
+)
